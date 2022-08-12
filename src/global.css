@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  background-color: black;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-btn {
+  border: none;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.login-btn:hover {
+  background-color: black;
+  border: 2px solid red;
+}
+
+.logo {
+  color: white;
+}
